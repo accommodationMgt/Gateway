@@ -10,7 +10,7 @@ spring:
         - id: paymentmanagement
           uri: http://localhost:8082
           predicates:
-            - Path=/paymentManagements/**
+            - Path=/payments/**
         - id: roommanagement
           uri: http://localhost:8083
           predicates:
@@ -43,7 +43,7 @@ spring:
         - id: paymentmanagement
           uri: http://paymentmanagement:8080
           predicates:
-            - Path=/paymentmanagements/**
+            - Path=/payments/**
         - id: roommanagement
           uri: http://roommanagement:8080
           predicates:
